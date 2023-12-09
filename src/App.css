@@ -1,0 +1,188 @@
+* {
+  font-family: 'Lato', sans-serif;
+}
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background: url(./assets/segurofondo.avif) no-repeat center center fixed;
+  background-size: cover;
+  color: #ffffff;
+  height: 100vh; 
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  
+  
+
+}
+
+.overlay {
+  background: rgba(255, 255, 255, 0.8); 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario-container {
+  justify-content: center;
+ 
+  padding: 70px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+  background: rgba(255, 255, 255, 0.2);
+  
+
+}
+
+h1 {
+  padding-bottom: 30px ;
+  text-align: center;
+  color: #ffffff;
+}
+a{
+  text-align: center;
+  padding:50px
+
+}
+label {
+  font-size: large;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+select, input {
+  font-size: medium;
+  width: 100%; 
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; 
+}
+
+select{
+  justify-content: center;
+}
+button{
+  cursor: pointer;
+}
+.button-cotizar{
+ width: 100%;
+  
+  color:white;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  background-color:darkolivegreen
+
+}
+
+.button-volver{
+  background-color: rgb(1, 70, 70);;
+  padding: 20px;
+  text-decoration:none;
+  color: white;
+  border-radius: 10px;
+}
+a.button-historial{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color:rgb(1, 70, 70);
+}
+#resultado {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+}
+
+
+.centercotizador{
+  display: list-item;
+  padding-bottom: 200px;
+  padding: 30px;
+  list-style: none;
+}
+.resultado-table {
+  width: 100%;
+  color: #000000;
+  margin-right: 10%;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.7);
+  border-collapse: collapse;
+  justify-content: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.resultado-table th, .resultado-table td {
+  border: 1px solid #000000;
+  padding: 10px;
+  text-align: left;
+}
+
+.resultado-table th {
+  background-color: #3498db;
+  color: #fff;
+}
+#resultado{
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+}
+.separador {
+  text-align: center;
+  margin-top: 30px;
+}
+.button-outline {
+  background-color: #fff;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  
+}
+
+.button-outline:hover {
+  background-color: #3498db;
+  color: #fff;
+}
+
+#mensajeExito {
+  background-color:darkolivegreen; 
+  color: #fff; 
+  padding: 10px;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  z-index: 999; 
+  display: none;
+}
+
+#mensajeExito.mostrar {
+  display: block;
+}
+
+
+@media screen and (max-width: 650px) {
+  body {
+    font-size: 14px;
+  }
+}
