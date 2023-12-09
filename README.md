@@ -1,8 +1,17 @@
 Documentación e instrucciones para ejecutarlo localmente.
 
+
+
+Instrucciones para Ejecutar Localmente:
+
+Asegúrese de tener Node.js instalado.
+Clone el repositorio.
+Abra una terminal en la carpeta del proyecto e instale las dependencias con el comando npm install.
+Ejecute la aplicación con el comando npm run dev.
+
+
+
 El proyecto consiste en una aplicación de cotización de seguros con dos componentes principales: CotizadorForm y Historial.
-
-
 CotizadorForm:
 
 Este componente maneja la entrada de datos del usuario para calcular cotizaciones de seguros.
@@ -30,13 +39,5 @@ En CotizadorForm, los usuarios ingresan datos y al hacer clic en "Cotizar", se r
 En Historial, se lee desde el sessionStorage y se muestra en una tabla.
 
 
-Instrucciones para Ejecutar Localmente:
 
-Asegúrese de tener Node.js instalado.
-Clone el repositorio.
-Abra una terminal en la carpeta del proyecto e instale las dependencias con el comando npm install.
-Ejecute la aplicación con el comando npm run dev.
-La aplicación estará disponible en su navegador en http://localhost:xxxx/.
-Notas Adicionales:
 
-Esta documentación proporciona una visión general del proyecto y los pasos para ejecutarlo localmente.
